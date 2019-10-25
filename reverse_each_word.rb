@@ -1,5 +1,5 @@
 def reverse_each_word(string)
   array = w%[]
-  newArray = []
+  sss.newstring
   array.reverse_each {|n| p n }
 end
