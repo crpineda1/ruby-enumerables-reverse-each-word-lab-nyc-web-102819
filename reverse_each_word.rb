@@ -7,6 +7,3 @@ def reverse_each_word(mystring)
   myarray.each {|n| new_array.push(n.reverse) }
   new_array.join(', ')
 end
-
-
-new_array.push(element)
