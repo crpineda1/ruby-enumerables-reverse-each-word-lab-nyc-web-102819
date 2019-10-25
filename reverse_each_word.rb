@@ -5,5 +5,5 @@ def reverse_each_word(mystring)
   new_array = []
   str = ""
   myarray.each {|n| new_array.push(n.reverse) }
-  new_array.join(', ')
+  new_array.join(' ')
 end
