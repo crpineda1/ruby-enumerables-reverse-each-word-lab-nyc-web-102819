@@ -6,7 +6,7 @@ def reverse_each_word(mystring)
  str = ""
 
 
-  myarray.reverse_each {|i| str+ i}
+  myarray.reverse_each {|i| str+ "#{i}"})      
  #str = myarray2.join(', ')
 p myarray2.join(" ")
 end
