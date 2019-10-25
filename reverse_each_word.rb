@@ -4,6 +4,3 @@ def reverse_each_word(mystring)
   array.reverse_each {|n| p str += "#{n} " }
 
 end
-
-#p array
-#p str
