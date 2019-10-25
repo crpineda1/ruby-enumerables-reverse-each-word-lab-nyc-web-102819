@@ -2,11 +2,8 @@ def reverse_each_word(mystring)
 
 
   myarray = mystring.split(' ')
- myarray2 = []
- str = ""
 
-
-  myarray.each {|i| str+ "#{i.reverse}"}    
- #str = myarray2.join(', ')
-p myarray2.join(" ")
+  str = ""
+  myarray.each {|n| p str += "#{n.reverse} " }
+ str
 end
