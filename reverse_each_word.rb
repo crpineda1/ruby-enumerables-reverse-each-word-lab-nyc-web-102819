@@ -5,5 +5,5 @@ def reverse_each_word(mystring)
 
 end
 
-p array
-p str
+#p array
+#p str
